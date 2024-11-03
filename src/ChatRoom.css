@@ -1,0 +1,44 @@
+.chat-room {
+  height: 100%;
+  background-color: #0056b3;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+.chat-container {
+  justify-content: center;
+  display: flex;
+}
+.start-chat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.start-chat input {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 250px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
